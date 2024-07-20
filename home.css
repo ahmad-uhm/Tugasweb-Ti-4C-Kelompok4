@@ -1,34 +1,32 @@
-/* Global Styles */
-* {
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffffff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.2;
-    color: #333;
-    background-color: #f9f9f9;
-    z-index: 9999;
-}
-
 /* Navbar Styles */
 .navbar {
-    background-color: #7f5353;
-    padding: 1em;
+    background-color: #9c7f7f;
+    padding: 1px 6px 9px 120px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 0;
+
+
 }
 
 .navbar-logo {
-    margin-top: 25px;
-    margin-left: 35px;
+    margin: 15px;
+    line-height: 2%;
+    display: flex;
 }
 
 .navbar-logo img {
-    width: 140px;
+    width: 120px;
     height: 140px;
 }
 
@@ -40,25 +38,25 @@ body {
 }
 
 .navbar-judul a {
-    margin: 30px;
+    margin: 18px;
+    line-height: 1%;
     text-decoration: none;
-    color: #fff;
-    padding-right: 200px;
+    color: #eb4242;
+    padding: 2px 4px  70px 10px 50px;
 }
 
 .navbar-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 19px 4px;
+    padding: 20px 30px 15px 95px;
+    margin: 10px;
 }
 
 .navbar-nav a {
-    padding-right: 10px;
     text-decoration: none;
-    color: #fff;
-    margin-right: 42px;
-    margin-left: 15px;
+    color: #b92121;
+
+    padding-right: 40px;
 }
 
 .navbar-nav a:hover {
@@ -67,11 +65,12 @@ body {
 
 /* Hero Section Styles */
 .hero {
-    background-color: #1d1b1b;
+    background-color: #221f1f;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .content {
@@ -82,7 +81,7 @@ body {
 }
 
 .slider {
-    position: relative;
+    position: flex;
     width: 100%;
     max-width: 900px;
     overflow: hidden; /* Hide overflow to show one image at a time */
@@ -90,13 +89,13 @@ body {
 
 .slides {
     display: flex;
-    transition: transform 1s ease-in-out; /* Adjust transition duration */
+    transition: transform 0s ease-in-out; /* Adjust transition duration */
     width: 300%; /* Adjust width to accommodate all slides */
 }
 
 .slides img {
     width: 100%;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.5s ease-in-out; /* Smooth zoom effect */
@@ -120,6 +119,7 @@ body {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 
 .next {
     right: 0;
