@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Navbar Styles */
+
 .navbar {
     background-color: #ffffff;
     padding: 1px 60px 9px 150px;
@@ -51,9 +51,8 @@ body {
     color: #ccc;
 }
 
-/* Hero Section Styles */
-.hero {
 
+.hero {
     display: flex;
     margin: 0;
 
@@ -71,13 +70,13 @@ body {
 .slider {
     position: relative;
     width: 70%;
-    overflow: hidden; /* Hide overflow to show one image at a time */
+    overflow: hidden;
 }
 
 .slides {
     display: flex;
-    transition: transform 1s ease-in-out; /* Adjust transition duration */
-    width: 300%; /* Adjust width to accommodate all slides */
+    transition: transform 1s ease-in-out; 
+    width: 300%;
 }
 
 .slides img {
@@ -85,11 +84,11 @@ body {
     height: 490px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.5s ease-in-out; /* Smooth zoom effect */
+    transition: transform 0.5s ease-in-out; 
 }
 
 .active-slide img {
-    transform:scale(3.1); /* Zoom in */
+    transform:scale(3.1); 
 }
 
 .prev, .next {
@@ -115,4 +114,32 @@ body {
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.hero2 .content2 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.slider2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+    flex-direction:row;
+    gap: 10px;
+    
+    }
+    
+    .slider2 img{
+    flex-shrink: 0;
+    width: 340px;
 }
