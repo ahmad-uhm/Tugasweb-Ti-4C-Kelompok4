@@ -17,14 +17,14 @@ body {
     margin: auto;
 }
 
-.navbar-logo {
+.navbar .navbar-logo {
     margin: auto;
     line-height: 2%;
     display: flex;
     padding: 0 5px 0 5px;
 }
 
-.navbar-logo img {
+.navbar .navbar-logo img {
     margin: auto;
     width: 300px;
     height: 95px;
@@ -142,4 +142,46 @@ h2{
     flex-shrink: 0;
     width: 340px;
     cursor: pointer;
+    border-radius: 15px;
+}
+
+.slider3 {
+    display: flex;
+    background-color: #866060;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    flex: 1;
+}
+.box{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+
+.box img{
+    border-radius: 5px;
+    display: flex
+    margin-left: 200px;
+    width: 250px;
+    background-color: #080808;
+
+}
+.box header{
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 1px;
+    background-color: #080808;
+    float: right;
+    display: flex;
+}
+
+.box p{
+    display: flex;
+    margin-top: 40px;
+    float: right;
+    line-height: 1.2;
+    background-color: #080808;
+    text-decoration: none;
 }
