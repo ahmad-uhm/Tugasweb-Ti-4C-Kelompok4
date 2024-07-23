@@ -145,14 +145,14 @@ h2{
     border-radius: 15px;
 }
 
-.slider3 {
+.slider3 .box{
     display: flex;
     background-color: #866060;
     border: 1px solid #ffffff;
     padding: 10px;
     flex: 1;
 }
-.box{
+.box a{
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -162,7 +162,7 @@ h2{
 
 .box img{
     border-radius: 5px;
-    display: flex
+    
     margin-left: 200px;
     width: 250px;
     background-color: #080808;
@@ -173,7 +173,7 @@ h2{
     font-size: 24px;
     margin-top: 1px;
     background-color: #080808;
-    float: right;
+    text-decoration: none;
     display: flex;
 }
 
