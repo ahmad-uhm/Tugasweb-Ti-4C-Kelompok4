@@ -151,37 +151,65 @@ h2{
     border: 1px solid #ffffff;
     padding: 10px;
     flex: 1;
+    margin: 0;
 }
 .box a{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    display: grid;
-    
+    display: flex;
 }
 
 .box img{
     border-radius: 5px;
-    
-    margin-left: 200px;
-    width: 250px;
+    width: 230px;
+    object-fit: cover;
+    display: flex;
     background-color: #080808;
-
+    margin: 10px 5px 7px 140px;
 }
 .box header{
-    margin-left: 10px;
     font-size: 24px;
-    margin-top: 1px;
-    background-color: #080808;
-    text-decoration: none;
     display: flex;
+    margin: -100px 10px 17% ;
+    
 }
 
 .box p{
     display: flex;
-    margin-top: 40px;
-    float: right;
-    line-height: 1.2;
-    background-color: #080808;
+    margin: -40px -220px -90px;
+}
+
+
+.slider3 .box1{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    margin: 0;
+}
+
+.box1 a {
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box1 img{
+    border-radius: 5px;
+    width: 230px;
+    object-fit: cover;
+    display: flex;
+    background-color: #080808;
+    margin: 10px 10px 8px 220px;
+}
+.box1 h3{
+    font-size: 18px;
+    display: flex;
+    margin: -100px 10px 2% ;
+    
+}
+
+.box1 p {
+    display: flex;
+    margin: 2px -290px -105px ;
 }
