@@ -55,7 +55,6 @@ body {
 .hero {
     display: flex;
     margin: 0;
-
 }
 
 .content {
@@ -68,6 +67,7 @@ body {
 }
 
 .slider {
+    
     position: relative;
     width: 70%;
     overflow: hidden;
@@ -76,15 +76,15 @@ body {
 .slides {
     display: flex;
     transition: transform 1s ease-in-out; 
-    width: 300%;
+    width: 100%;
 }
 
 .slides img {
     width: 100%;
-    height: 490px;
+    height: 400px;
     object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.5s ease-in-out; 
+    border-radius: 30px;
+    transition: transform 1s ease-in-out; 
 }
 
 .active-slide img {
@@ -135,7 +135,7 @@ h2{
     justify-content: center;
     flex: 1; 
     flex-direction:row;
-    gap: 10px;
+    gap: 22px;
     
 }
 .slider2 img{
@@ -147,7 +147,6 @@ h2{
 
 .slider3 .box{
     display: flex;
-    background-color: #866060;
     border: 1px solid #ffffff;
     padding: 10px;
     flex: 1;
@@ -158,6 +157,7 @@ h2{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0 0 90px 140px;
 }
 
 .box img{
@@ -166,7 +166,7 @@ h2{
     object-fit: cover;
     display: flex;
     background-color: #080808;
-    margin: 10px 5px 7px 140px;
+    margin: 10px 10px 7px 70px;
 }
 .box header{
     font-size: 24px;
@@ -193,6 +193,8 @@ h2{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0 0 70px -1px;
+
 }
 .box1 img{
     border-radius: 5px;
@@ -205,7 +207,7 @@ h2{
 .box1 h3{
     font-size: 18px;
     display: flex;
-    margin: -100px 10px 2% ;
+    margin: -140px 10px 2% ;
     
 }
 
@@ -219,7 +221,6 @@ h2{
     padding: 10px;
     flex: 1;
     margin: 0;
-    background-color: #866060;
 }
 
 .box2 a {
@@ -236,7 +237,8 @@ h2{
     object-fit: cover;
     display: flex;
     background-color: #080808;
-    margin: 10px 10px 8px 220px;
+    margin: 10px 10px 7px 210px;
+    
 }
 .box2 h3{
     font-size: 18px;
@@ -247,7 +249,7 @@ h2{
 
 .box2 p {
     display: flex;
-    margin: 20px -255px -15px ;
+    margin: 20px -255px -20px ;
 }
 
 .slider3 .box3{
@@ -278,11 +280,122 @@ h2{
 .box3 h3{
     font-size: 18px;
     display: flex;
-    margin: -170px 1px 2% ;
+    margin: -140px 1px 2% ;
     
 }
 
 .box3 p {
     display: flex;
-    margin: 2px -250px -10px ;
+    margin: 20px -280px -10px;
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.video{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e4e3e3;
+    padding: 20px;
+    width: 152px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kotak a{
+    text-decoration: none;
+}
+.kotak i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.kotak h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 90px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
 }
